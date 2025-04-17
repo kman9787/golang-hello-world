@@ -1,11 +1,11 @@
-package main
+package demos
 
 import (
 	"log"
 	"sort"
 )
 
-func do_myMap(){
+func Do_myMap(){
 	myMap := make(map[string]string)
 
 	myMap["dog"] = "Roxy"

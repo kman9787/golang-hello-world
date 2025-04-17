@@ -1,4 +1,4 @@
-package main
+package demos
 
 import "fmt"
 
@@ -19,7 +19,7 @@ type Gorrila struct {
 	NunberOfTheet int
 }
 
-func do_myInterface(){
+func Do_myInterface(){
 	dog := Dog {
 		Name: "Samson",
 		Breed: "German Shepherd",

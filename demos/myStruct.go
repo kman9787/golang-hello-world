@@ -1,4 +1,4 @@
-package main
+package demos
 
 import (
 	"log"
@@ -13,7 +13,7 @@ func (m *MyStruct) printFirstName() string {
 }
 
 
-func do_myStruct(){
+func Do_myStruct(){
 
 	var myVar MyStruct
 	 myVar.FirstName = "Kash" 

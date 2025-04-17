@@ -1,14 +1,14 @@
-package main
+package demos
 
 import "log"
 
-func do_looping() {
+func Do_looping() {
 	for i := 0; i <= 10; i++ {
 		log.Println(i)
 	}
 }
 
-func do_looping_string() {
+func Do_looping_string() {
 
 	animals := []string{"Dog", "Fish", "Cat", "Horse", "Cow"}
 
@@ -18,7 +18,7 @@ func do_looping_string() {
 
 }
 
-func do_looping_string2() {
+func Do_looping_string2() {
 
 	firtsLine := "Once upon a midnight dreary"
 
@@ -27,7 +27,7 @@ func do_looping_string2() {
 	}
 }
 
-func do_looping_struct() {
+func Do_looping_struct() {
 
 	type User struct {
 		FirstName string
@@ -48,7 +48,7 @@ func do_looping_struct() {
 	}
 }
 
-func do_looping_map() {
+func Do_looping_map() {
 
 	myMap := make(map[string]string)
 
